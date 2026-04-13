@@ -1,0 +1,523 @@
+@font-face {
+    font-family: 'Compacta';
+    src: url('fonts/compactablkbt_black.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GregorianFLF';
+    src: url('fonts/GregorianFLF.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    align-items: end;
+}
+
+#container{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#mainDiv{
+    border-radius: 25px 25px 0 0;
+    width: 1000px;
+    height: 700px;
+    background-color: white;
+    box-shadow: 0px 15px 25px -5px black;
+}
+
+#container2{
+    margin: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#mainH1{
+    font-size: 50px;
+    text-align: center;
+}
+
+#mainYear{
+    margin: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#mainP{
+    font-size: 30px;
+}
+
+
+.btnDiv{
+    border-radius: 25px 25px 0 0;
+    width: 300px;
+    height: 700px;
+    background-color: black;
+    box-shadow: 0px 15px 25px -5px black;
+}
+
+.btnDiv button{
+    width: 100%;
+    height: 63.6px;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.TCD{
+    border-radius: 25px 25px 0 0;
+    background-image: url(images/TCD.jpg);
+    background-position: center;
+    background-position-y: 700px;
+    font-family: 'aachen bt';
+    font-size: 30px;
+    color: yellow;
+}
+.TCD:active{
+    color: rgb(66, 90, 18);
+}
+
+.LR{
+    background-image: url(images/LR.jpg);
+    background-position: center;
+    background-position-y: 450px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: gold;
+}
+.LR:active{
+    color: rgb(36, 49, 10)
+}
+
+.GRD{
+    background-image: url(images/GRD.jpg);
+    background-position: center;
+    background-position-y: 900px;
+    background-position-x: 0px;
+    font-family: 'Compacta';
+    font-size: 50px;
+    color: rgb(223, 33, 223);
+}
+.GRD:active{
+    color: purple;
+}
+
+.HB808{
+    background-image: url(images/HB808.jpg);
+    background-position: center;
+    background-position-y: 550px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
+    color: lightgrey;
+}
+.HB808:active{
+    color: rgb(78, 78, 78);
+}
+
+.MBDTF{
+    background-image: url(images/MBDTF.jpg);
+    background-position: center;
+    background-position-y: 550px;
+    font-family: 'lolita';
+    font-size: 15px;
+    color: gold;
+}
+.MBDTF:active{
+    background-image: url(images/MBDTF2.jpg);
+    background-position: center;
+    background-position-y: 550px;
+    color: rgb(36, 49, 10)
+}
+
+.YZS{
+    background-image: url(images/YZS.jpg);
+    background-position: center;
+    background-position-y: 550px;
+    background-position-x: 455px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 57px;
+    color: black;
+}
+.YZS:active{
+    color: rgb(255, 0, 0);
+}
+
+.TLOP{
+    background-image: url(images/TLOP2.jpg);
+    background-position: center;
+    background-position-y: 690px;
+    background-position-x: -210px;
+    font-size: 37px;
+    color: coral;
+}
+.TLOP:active{
+    background-image: url(images/TLOP3.jpg);
+    background-position: center;
+    background-position-y: 302px;
+    background-position-x: -430px;
+    color: coral;
+}
+
+.ye{
+    background-image: url(images/ye2.jpg);
+    background-position: center;
+    background-position-y: 600px;
+    font-family: 'JakesHandwriting', cursive;
+    font-size: 37px;
+    color: rgb(43, 255, 0);
+}
+.ye:active{
+    color: rgb(174, 0, 255);
+}
+
+.JIK{
+    background-image: url(images/JIK2.jpg);
+    background-position: center;
+    background-position-y: 600px;
+    font-family: 'GT Super Book', serif;
+    font-size: 37px;
+    color: yellow;
+}
+.JIK:active{
+    color: goldenrod;
+}
+
+.DND{
+    background-image: url(images/DND2.jpg);
+    background-position: center;
+    background-position-y: 600px;
+    font-family: 'impact';
+    font-size: 50px;
+}
+.DND:active{
+    color: white;
+}
+
+.BULLY{
+    background-image: url(images/BULLY.jpg);
+    background-position: center;
+    background-position-y: 800px;
+    font-family: 'GregorianFLF';
+    font-size: 50px;
+    color: white;
+}
+.BULLY:active{
+    background-image: url(images/BULLY.jpg);
+    background-position: center;
+    background-position-y: 300px;
+}
+
+
+/* Styles for functions */
+
+/* The College Dropout */
+.bodyTCH{
+    background-image: url(background/college.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mainDivTCD{
+    background-image: url(fones/planks.jpg);
+}
+.TCDH1 {
+    font-family: 'aachen bt';
+    font-size: 30px;
+    color: yellow;
+}
+.TCDY{
+    color: yellow;
+}
+.TCDP{
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+}
+
+/* Late Registration */
+.bodyLR{
+    background-image: url(background/lateReg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mainDivLR{
+    background-image: url(fones/lateRegistrationFone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.LRH1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: gold;
+}
+.LRY{
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+}
+.LRP{
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+}
+
+/* Graduation */
+.bodyGRD{
+    background-image: url(background/city.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mainDivGRD{
+    background-image: url(fones/purpleSky.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.GRDH1 {
+    font-size: 30px;
+    font-family: 'Compacta';
+    color: rgb(223, 33, 223);
+}
+.GRDY{
+    font-family: 'Compacta';
+    color: rgb(223, 33, 223);
+}
+.GRDP{
+    font-family: 'Compacta';
+    color: purple;
+}
+
+/* 808 */
+/* Graduation */
+.body808{
+    background-image: url(background/colours.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mainDiv808{
+    background-color: lightgrey;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.H1808 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: lightgrey;
+}
+.Y808{
+    font-family: 'Courier New', Courier, monospace;
+    color: lightgrey;
+}
+.P808{
+    font-family: 'Courier New', Courier, monospace;
+    color: lightgrey;
+}
+
+/* MBDTF */
+.bodyMBDTF{
+    background-image: url(background/angles.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mainDivMBDTF{
+    background-image: url(fones/piano.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.H1MBDTF {
+    font-size: 30px;
+    font-family: 'lolita';
+    color: gold;
+}
+.YMBDTF{
+    font-family: 'lolita';
+    color: gold;
+}
+.PMBDTF{
+    font-family: 'lolita';
+    color: gold
+}
+
+/* Yeezus */
+.bodyYZS{
+    background-image: url(background/glitch.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mainDivYZS{
+    background-image: url(fones/cd.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.H1YZS {
+    font-size: 30px;
+    font-family: 'Arial';
+    color: red;
+}
+.YYZS{
+    font-family: 'Arial';
+    color: red;
+}
+.PYZS{
+    font-family: 'Arial';
+    color: red;
+}
+
+/* The Life Of Pablo */
+.bodyTLOP{
+    background-image: url(background/stadium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mainDivTLOP{
+    background-image: url(fones/TLOP2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.H1TLOP {
+    font-size: 30px;
+    font-family: 'Arial';
+    color: black;
+}
+.YTLOP{
+    font-family: 'Arial';
+    color: black;
+}
+.PTLOP{
+    font-family: 'Arial';
+    color: black;
+}
+
+/* The Life Of Pablo */
+.bodyye{
+    background-image: url(background/mountains.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mainDivye{
+    background-image: url(fones/rancho.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.H1ye {
+    font-size: 30px;
+    font-family: 'JakesHandwriting', cursive;
+    color: rgb(43, 255, 0);
+}
+.Yye{
+    font-family: 'JakesHandwriting', cursive;
+    color: rgb(43, 255, 0);
+}
+.Pye{
+    font-family: 'JakesHandwriting', cursive;
+    color: rgb(43, 255, 0);
+}
+
+/* Jesus is king*/
+.bodyJIK{
+    background-image: url(background/blue.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mainDivJIK{
+    background-image: url(fones/blue.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.H1JIK {
+    font-size: 30px;
+    font-family: 'GT Super Book', serif;
+    color: yellow;
+}
+.YJIK{
+    font-family: 'GT Super Book', serif;
+    color: yellow;
+}
+.PJIK{
+    font-family: 'GT Super Book', serif;
+    color: yellow;
+}
+
+/* Donda */
+.bodyDND{
+    background-image: url(background/black.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mainDivDND{
+    background-image: url(fones/black.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.H1DND {
+    font-size: 30px;
+    font-family: 'impact';
+    color: black;
+}
+.YDND{
+    font-family: 'impact';
+    color: black;
+}
+.PDND{
+    font-family: 'impact';
+    color: black;
+}
+
+.btnDivbtn, .TCDbtn, .LRbtn, .GRDbtn, .HB808btn, .MBDTFbtn, .YZSbtn, .TLOPbtn, .yebtn, .JIKbtn, .BULLYbtn{
+    background-color: black;
+    color: black;
+    background-image: url(fones/black.jpg);
+}
+
+
+
+/* BULLY */
+.bodyBULLY{
+    background-image: url(background/runaway.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mainDivBULLY{
+    background-image: url(fones/fight.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.H1BULLY {
+    font-size: 30px;
+    font-family: 'GregorianFLF';
+    color: white;
+}
+.YBULLY{
+    font-family: 'GregorianFLF';
+    color: white;
+}
+.PBULLY{
+    font-family: 'GregorianFLF';
+    color: white;
+}
